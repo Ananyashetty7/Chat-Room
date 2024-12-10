@@ -32,5 +32,7 @@ Develop a real-time communication platform.
 Create a user-friendly interface for seamless interaction.
 
 Ensure secure data management and efficient message storage.
+
 Build a scalable system capable of handling multiple users simultaneously.
+
 Provide a foundation for future features like encryption and enhanced multimedia capabilities.
