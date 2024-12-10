@@ -1,7 +1,8 @@
 # Chat-Room
 A web-based platform designed for seamless, instant communication, enabling real-time messaging and user interactions. This project is developed using Django and focuses on performance, scalability, and ease of use.
 
-Features
+Features:
+
 Real-Time Communication: Instant messaging for live discussions.
 
 Group Interaction: Multiple users can engage in group chats simultaneously.
