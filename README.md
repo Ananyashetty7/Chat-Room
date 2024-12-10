@@ -12,13 +12,13 @@ Security: Includes form validation and custom error handling for enhanced safety
 
 
 Technologies Used
-Frontend: HTML, CSS, Bootstrap, JavaScript
-Backend: Django, Django Channels
-Database: SQLite
+#Frontend: HTML, CSS, Bootstrap, JavaScript
+#Backend: Django, Django Channels
+#Database: SQLite
 
 Objectives
-Develop a real-time communication platform.
-Create a user-friendly interface for seamless interaction.
-Ensure secure data management and efficient message storage.
-Build a scalable system capable of handling multiple users simultaneously.
-Provide a foundation for future features like encryption and enhanced multimedia capabilities.
+#Develop a real-time communication platform.
+#Create a user-friendly interface for seamless interaction.
+#Ensure secure data management and efficient message storage.
+#Build a scalable system capable of handling multiple users simultaneously.
+#Provide a foundation for future features like encryption and enhanced multimedia capabilities.
