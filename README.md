@@ -20,19 +20,7 @@ A web-based platform designed for seamless, instant communication, enabling real
 - **WebSockets**: For real-time communication
 - **APIs**: Django REST Framework (DRF) for building APIs
 
-## Screenshots
-### Home Page
-![Home Page](screenshots/home.png)
-![Home Page](screenshots/home1.png)
 
-### Chat Room
-![Chat Room](screenshots/chat_room.png)
-
-### Login Page
-![Login Page](screenshots/login.png)
-
-### Create Room Page
-![Create Room Page](screenshots/create_room.png)
 
 ## Installation
 
@@ -82,8 +70,16 @@ python manage.py runserver
 ## Project Team
 **Project Head:** Ananya G Shetty
 
-## Contributing
-Feel free to fork the repository and submit pull requests!
+## Screenshots
+### Home Page
+![Home Page](screenshots/home.png)
+![Home Page](screenshots/home1.png)
 
-## License
-This project is licensed under the MIT License.
+### Chat Room
+![Chat Room](screenshots/chat_room.png)
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Create Room Page
+![Create Room Page](screenshots/create_room.png)
