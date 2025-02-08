@@ -1,52 +1,89 @@
-Real-Time Chatroom Web App
-
-
-![image](https://github.com/user-attachments/assets/829033d4-3aaf-4b74-a783-db7a78c1ce6f)
-
+# Django Chat Room Application
 
 A web-based platform designed for seamless, instant communication, enabling real-time messaging and user interactions. This project is developed using Django and focuses on performance, scalability, and ease of use.
 
-Features
+## Features
+- **Real-Time Communication**: Instant messaging for live discussions.
+- **Group Interaction**: Multiple users can engage in group chats simultaneously.
+- **User Authentication**: Secure login and account management for personalized experiences.
+- **Privacy Options**: Private messaging features for one-on-one conversations.
+- **Scalability**: Designed to handle multiple users efficiently.
+- **Customizable Profiles**: Users can personalize their accounts and settings.
+- **Security**: Includes form validation and custom error handling for enhanced safety.
+- **WebSockets**: Enables real-time, bidirectional communication between users.
+- **APIs**: RESTful APIs to facilitate seamless integration with other applications.
 
-Real-Time Communication: Instant messaging for live discussions.
+## Technologies Used
+- **Frontend**: HTML, CSS, Bootstrap, JavaScript
+- **Backend**: Django, Django Channels
+- **Database**: SQLite
+- **WebSockets**: For real-time communication
+- **APIs**: Django REST Framework (DRF) for building APIs
 
-Group Interaction: Multiple users can engage in group chats simultaneously.
+## Screenshots
+### Home Page
+![Home Page](screenshots/home.png)
+![Home Page](screenshots/home1.png)
 
-User Authentication: Secure login and account management for personalized experiences.
+### Chat Room
+![Chat Room](screenshots/chat_room.png)
 
-Privacy Options: Private messaging features for one-on-one conversations.
+### Login Page
+![Login Page](screenshots/login.png)
 
-Scalability: Designed to handle multiple users efficiently.
+### Create Room Page
+![Create Room Page](screenshots/create_room.png)
 
-Customizable Profiles: Users can personalize their accounts and settings.
+## Installation
 
-Security: Includes form validation and custom error handling for enhanced safety.
+### Cloning the Repository
+Clone the repository using the command below:
+```sh
+git clone https://github.com/Ananyashetty7/Chat-Room
+```
+Move into the directory where we have the project files:
+```sh
+cd Chat-Room
+```
 
-![image](https://github.com/user-attachments/assets/2cc03b6d-1969-4b69-9cad-2d091a7abbd8)
+### Creating a Virtual Environment
+Let's install virtualenv first:
+```sh
+pip install virtualenv
+```
+Then we create our virtual environment:
+```sh
+virtualenv envname
+```
 
+### Activating the Virtual Environment
+#### On Windows:
+```sh
+envname\Scripts\activate
+```
+#### On macOS/Linux:
+```sh
+source envname/bin/activate
+```
 
-Technologies Used
+### Installing Dependencies
+Install the requirements:
+```sh
+pip install -r requirements.txt
+```
 
-Frontend: HTML, CSS, Bootstrap, JavaScript
+## Running the App
+To run the App, use:
+```sh
+python manage.py runserver
+```
+⚠ Then, the development server will be started at: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
-Backend: Django, Django Channels
+## Project Team
+**Project Head:** Ananya G Shetty
 
-Database: SQLite
+## Contributing
+Feel free to fork the repository and submit pull requests!
 
-![image](https://github.com/user-attachments/assets/fc75036f-46cf-4992-9c62-77cb996183dd)
-
-
-Objectives
-
-Develop a real-time communication platform.
-
-Create a user-friendly interface for seamless interaction.
-
-![image](https://github.com/user-attachments/assets/f02de866-e172-4aed-87f0-ea0d9e67fce0)
-
-
-Ensure secure data management and efficient message storage.
-
-Build a scalable system capable of handling multiple users simultaneously.
-
-Provide a foundation for future features like encryption and enhanced multimedia capabilities.
+## License
+This project is licensed under the MIT License.
