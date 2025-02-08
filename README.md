@@ -1,4 +1,4 @@
-Real-Time Chatroom Web Application
+Real-Time Chatroom Web App
 
 
 ![image](https://github.com/user-attachments/assets/829033d4-3aaf-4b74-a783-db7a78c1ce6f)
